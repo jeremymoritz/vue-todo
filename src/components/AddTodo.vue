@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Chance from 'chance';
+// import Chance from 'chance';
 
 export default {
   name: 'AddTodo',
@@ -20,7 +20,7 @@ export default {
   methods: {
     addTodo() {
       const newTodo = {
-        id: new Chance().guid(),
+        // id: new Chance().guid(),
         title: this.title,
         completed: false
       };
